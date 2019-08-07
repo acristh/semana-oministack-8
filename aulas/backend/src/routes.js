@@ -3,7 +3,7 @@ const express = require('express');
 const routes = express.Router();
 
 routes.get('/', (req, res) => {
-    res.send(`Olá, ${req.query.name}`);
+    res.json({message: `Olá, ${req.query.name}`});
 });
 
-export default routes;
+module.exports = routes;
