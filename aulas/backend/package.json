@@ -8,8 +8,10 @@
     "start": "node ./src/server.js"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.6.8"
+    "mongoose": "^5.6.8",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
